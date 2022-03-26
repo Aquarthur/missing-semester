@@ -27,7 +27,7 @@ echo "curl --head --silent https://missing.csail.mit.edu" >> ./tmp/missing/semes
 # sh is a POSIX-compliant command interpreter (shell).  It is implemented by re-execing as either
 # bash(1), dash(1), or zsh(1) as determined by the symbolic link located at /private/var/select/sh.
 
-# With `sh`, I'm executing the code through the `sh` command, for which I have +x permissions
+# With `sh`, I'm running the `sh` command, for which I have +x permissions, and providing the file as an argument
 # If I try to run locally, it will check the file's permissions which currently don't have +x permissions
 # sh ./tmp/missing/semester
 
