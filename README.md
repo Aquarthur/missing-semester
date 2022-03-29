@@ -10,3 +10,4 @@ A lot of topics the lectures go into are too big for a single lecture. Here's a 
 * regex
 * `sed`
 * `awk`
+* `tmux`
