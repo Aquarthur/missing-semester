@@ -1,6 +1,6 @@
 # missing-semester
 
-Exercise solutions and/or notes from https://missing.csail.mit.edu/
+Exercise solutions and/or notes from https://missing.csail.mit.edu/. Please note - I am aware that most of these notes are copy/pasted from the lectures. I mostly type them up to help me remember.
 
 ## Longer term exercises
 
