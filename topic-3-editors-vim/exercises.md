@@ -6,7 +6,11 @@ Complete `vimtutor`.
 
 ### Solution
 
-There isn't really a solution to this, but I did go through it!
+```sh
+vimtutor
+```
+
+Completed the exercises within `vimtutor`.
 
 ## Exercise 2
 
@@ -14,7 +18,7 @@ Download our basic vimrc and save it to `~/.vimrc`. Read through the well-commen
 
 ### Solution
 
-N/A
+Downloaded and confirmed that Vim looks/behaves differently.
 
 ## Exercise 3
 
@@ -27,7 +31,7 @@ Install and configure a plugin:
 
 ### Solution
 
-N/A
+Add the plugin, used it to navigate between files, and added the `<c-g>` key combination to run it instead of typing out the command.
 
 ## Exercise 4
 
@@ -51,7 +55,7 @@ Configure your other tools to use Vim bindings.
 
 ### Solution
 
-N/A
+Added `vscodevim` for VSCode.
 
 ## Exercise 7
 
