@@ -56,7 +56,7 @@ The first line might be tricky to get working. It’s helpful to know that `#` s
 ### Solution
 
 ```sh
-echo '#!/bin/sh' >> ./tmp/missing/semester
+echo '#!/bin/sh' >> ./tmp/missing/semester # alternatively, echo "#\!/bin/sh" >> ./tmp/missing/semester
 echo "curl --head --silent https://missing.csail.mit.edu" >> ./tmp/missing/semester
 ```
 
