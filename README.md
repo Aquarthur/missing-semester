@@ -7,7 +7,13 @@ Exercise solutions and/or notes from https://missing.csail.mit.edu/. Please note
 A lot of topics the lectures go into are too big for a single lecture. Here's a list of things that I want to spend more time on:
 
 * Vim
+  * `vimtutor`
+  * [Vim Adventures](https://vim-adventures.com/)
+  * [Vim Advent Calendar](https://vimways.org/)
+  * [Vim Golf](http://www.vimgolf.com/)
+  * [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
 * regex
+  * [RegexOne](https://regexone.com/)
 * `sed`
 * `awk`
 * `tmux`
