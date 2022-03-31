@@ -42,7 +42,23 @@ Write bash functions `marco` and `polo` that do the following. Whenever you exec
 
 ### Solution
 
-See `marco.sh`.
+```sh
+# !/usr/bin/env bash
+
+# Saves the current working directory to env var POLO_DIR
+marco () {
+  POLO_DIR=$(pwd)
+}
+
+# Changes directory back to POLO_DIR (if it is set)
+polo () {
+  if [[ -n $POLO_DIR ]]; then
+    cd $POLO_DIR
+  else
+    echo "You haven't called marco yet!"
+  fi
+}
+```
 
 ## Exercise 3
 
@@ -64,7 +80,26 @@ echo "Everything went according to plan"
 
 ### Solution
 
-The above script was stored in `magic-number.sh`. The solution is in `exercise-3.sh`. Use `source <script>` to (re)load them in your current shell.
+```sh
+# !/usr/bin/env bash
+
+# I didn't want to use a file for this solution
+out=""
+n=0
+
+# Effectively, we're continuing until "magic-number.sh" returns 1 (error)
+until [[ "$?" -ne 0 ]]
+do
+  let n=$n+1 # alternatively, n=$((n+1))
+  # We get both stdout and stderr by redirecting stderr to stdout
+  out+="$( ./magic-number.sh 2>&1 )
+"
+done
+
+# Print them out
+echo "$out"
+echo "The script ran $n times before encountering an error"
+```
 
 ## Exercise 4
 
@@ -86,7 +121,7 @@ find . -type f -name '*.html' -print0 | xargs -0 tar -czf out.tar.gz
 
 (Advanced) Write a command or script to recursively find the most recently modified file in a directory. More generally, can you list all files by recency?
 
-### Solution
+### Solution(s)
 
 #### Using `ls`
 
