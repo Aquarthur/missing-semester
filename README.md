@@ -9,6 +9,7 @@ A lot of topics the lectures go into are too big for a single lecture. Here's a 
 * Vim
   * `vimtutor`
   * [Vim Adventures](https://vim-adventures.com/)
+    * Finished the free part, need to spend $25 for the personal license if I want to keep going!
   * [Vim Advent Calendar](https://vimways.org/)
   * [Vim Golf](http://www.vimgolf.com/)
   * [Vim Tips Wiki](http://vim.wikia.com/wiki/Vim_Tips_Wiki)
